@@ -1,12 +1,12 @@
 // POST - GETALL
-export const BOOK = 'http://localhost:9000/book';
-export const BOOKCATEGORY = (id) => `http://localhost:9000/book?category_id=${id}`;
+export const BOOK = 'https://tiny-cyan-kingfisher-tutu.cyclic.app/book';
+export const BOOKCATEGORY = (id) => `https://tiny-cyan-kingfisher-tutu.cyclic.app/book?category_id=${id}`;
 
 // PUT - DELETE - GETBYID
-export const BOOKID = (id) => `http://localhost:9000/book/${id}`;
+export const BOOKID = (id) => `https://tiny-cyan-kingfisher-tutu.cyclic.app/book/${id}`;
 
 
 // POST - GETALL
-export const CATEGORY = 'http://localhost:9000/category'
+export const CATEGORY = 'https://tiny-cyan-kingfisher-tutu.cyclic.app/category'
 // PUT - DELETE -
-export const CATEGORYID = (id) => `http://localhost:9000/category/${id}`;
+export const CATEGORYID = (id) => `https://tiny-cyan-kingfisher-tutu.cyclic.app/category/${id}`;
