@@ -9,7 +9,7 @@ const Card = ({ id, title, categories, CategoryButton }) => {
       <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <BookSaveIcon className={'w-7 h-7 text-gray-500 dark:text-gray-400'} />
         <Link to={`/${id}`}>
-          <h5 className="mt-3 mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-white">{title}</h5>
+          <h3 className="mt-3 mb-2 text-xl font-semibold tracking-tight text-gray-900 dark:text-white">{title}</h3>
         </Link>
 
         {/* <div className='flex items-center gap-2'>

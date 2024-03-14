@@ -23,13 +23,18 @@ const NavbarLayout = () => {
             </Link>
 
             <ul className='flex gap-4'>
-              <Link to={'/'}>
-                <li className='border border-gray-300 rounded-md px-4 py-1 text-gray-600 text-sm items-center cursor-pointer hover:bg-gray-100'>My Book</li>
-              </Link>
 
-              <Link to={'/setup'}>
-                <li className='border border-gray-300 rounded-md px-4 py-1 text-gray-600 text-sm items-center cursor-pointer hover:bg-gray-100'>Setup</li>
-              </Link>
+              <li>
+                <Link to={'/'} className='border border-gray-300 rounded-md px-4 py-1 text-gray-600 text-sm items-center cursor-pointer hover:bg-gray-100'>
+                  My Book
+                </Link>
+              </li>
+
+              <li>
+                <Link to={'/setup'} className='border border-gray-300 rounded-md px-4 py-1 text-gray-600 text-sm items-center cursor-pointer hover:bg-gray-100'>
+                  Setup
+                </Link>
+              </li>
             </ul>
 
           </div>
