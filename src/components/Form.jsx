@@ -84,11 +84,15 @@ const Form = ({ title_form, EditData }) => {
         categories_name: inputField.categories_name,
       };
       dispatch(CreateBook(createData));
-      window.location.href = `/`
+      setTimeout(() => {
+        window.location.href = `/`
+      }, 1000)
     } else {
       // console.log('Update');
       dispatch(UpdateBook(inputField, EditData.id))
-      window.location.href = `/${EditData.id}`
+      setTimeout(() => {
+        window.location.href = `/${EditData.id}`
+      }, 1000)
     }
 
     // Reset form 
